@@ -6,7 +6,8 @@
 .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 16px;
+    padding: 0;
+    margin: 0.3rem;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -16,7 +17,12 @@
   .dropdown {
     position: fixed;
     display: flex;
-    
+    margin-right: 0.8rem
+  }
+
+  .ctn-head{
+    flex-wrap: wrap;
+    width: 100%;
   }
   
   .dropdown-content {
@@ -54,6 +60,7 @@
     cursor: pointer;
     width: 12rem;
     border: 1px solid;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   }
   
   .dropdown {
@@ -72,14 +79,43 @@
     padding: 12px 16px;
     text-decoration: none;
     display: flex;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.5rem;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover {
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;
+    margin-top: 3rem;
   }
   
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+  }
+
+  .inp input{
+    margin-top: 0.5rem;
+    width: 25rem;
+    height: 2.4rem;
+    border-radius: 50px; 
+    border: 3px solid green;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  .inp input[type=text]{
+    color: green;
+   font-size: 1.2rem;
+   }
+
+  .inp input::placeholder{
+    color: green;
+    position: relative;
+    left: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: rem;
   }
