@@ -1,2 +1,21 @@
 
+body{
+    overflow-x: hidden
+}
 
+.cl img, p, h2{
+    width: 50vh;
+}
+
+.contents{
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    width: 50vh;
+    height: 50vh;
+    border-radius: 2rem;
+    padding-right: 0.5rem;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}

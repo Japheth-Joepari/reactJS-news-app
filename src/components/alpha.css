@@ -1,6 +1,7 @@
 .ctn-head{
   display: flex;
   flex-direction: row;
+  background-color:transparent;
 }
 
 .dropbtn {
